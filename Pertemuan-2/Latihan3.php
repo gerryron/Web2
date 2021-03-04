@@ -1,7 +1,7 @@
 
 <html>
 <head>
-    <title>Kalkulator Biasa | Jago Ngoding</title>
+    <title>Kalkulator Web 2</title>
 </head>
 <body>
     <h1>Kalkulator - Web 2</h1>
