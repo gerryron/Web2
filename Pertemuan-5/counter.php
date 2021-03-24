@@ -8,7 +8,8 @@
       If (file_exists($nama_file))  {   
         $berkas = fopen($nama_file,"r");   
         $pencacah = (integer)trim(fgets($berkas, 255));   
-        $pencacah++;   Fclose($berkas);  
+        $pencacah++;   
+        Fclose($berkas);  
       }  else   $pencacah = 1;   
       // simpan pencacah   
       $berkas = fopen($nama_file,"w");   
