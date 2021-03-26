@@ -35,8 +35,8 @@
         <tr>
           <td><label for="wilayah">Nama Wilayah : </label></td>
           <td>
-            <select name="wilayah" id="wilayah">
-              <option value="pilih" disabled selected>Pilih Wilayah</option>
+            <select name="wilayah" id="wilayah" required>
+              <option value="" disabled selected>Pilih Wilayah</option>
               <option value="DKI Jakarta">DKI Jakarta</option>
               <option value="Jawa Barat">Jawa Barat</option>
               <option value="Banten">Banten</option>
@@ -46,27 +46,27 @@
         </tr>
         <tr>
           <td><label for="positif">Jumlah Positif : </label></td>
-          <td><input type="text" name="positif" id="positif"></td>
+          <td><input type="text" name="positif" id="positif" required></td>
         </tr>
         <tr>
           <td><label for="dirawat">Jumlah Dirawat : </label></td>
-          <td><input type="text" name="dirawat" id="dirawat"></td>
+          <td><input type="text" name="dirawat" id="dirawat" required></td>
         </tr>
         <tr>
           <td><label for="sembuh">Jumlah Sembuh : </label></td>
-          <td><input type="text" name="sembuh" id="sembuh"></td>
+          <td><input type="text" name="sembuh" id="sembuh" required></td>
         </tr>
         <tr>
           <td><label for="meninggal">Jumlah Meninggal : </label></td>
-          <td><input type="text" name="meninggal" id="meninggal"></td>
+          <td><input type="text" name="meninggal" id="meninggal" required></td>
         </tr>
         <tr>
           <td><label for="nama">Nama Operator : </label></td>
-          <td><input type="text" name="nama" id="nama"></td>
+          <td><input type="text" name="nama" id="nama" required></td>
         </tr>
         <tr>
           <td><label for="nim">NIM Mahasiswa : </label></td>
-          <td><input type="text" name="nim" id="nim"></td>
+          <td><input type="text" name="nim" id="nim" required></td>
         </tr>
       </table>
       <button type="submit" name="submit" class="btn-submit">Submit</button>
