@@ -134,5 +134,7 @@
     </tr>
   </table>
 </form>
+
+<p><a href="login.php">Kembali kehalaman login...</a></p>
 </body>
 </html>
